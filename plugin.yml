@@ -1,0 +1,10 @@
+name: PortalCommands
+main: SalmonDE\PortalCommands\Loader
+author: SalmonDE
+version: 1.0.0
+api: [3.8.0]
+permissions:
+    cmd:
+        children:
+            cmd.worldtp:
+            cmd.portal:

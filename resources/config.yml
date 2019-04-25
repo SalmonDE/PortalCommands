@@ -1,0 +1,2 @@
+# Disable or enable the /worldtp command
+worldtp-command: true
