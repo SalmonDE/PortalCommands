@@ -190,7 +190,7 @@ class PortalCommand extends BaseCommand implements Listener {
 		switch(strtolower(array_shift($args) ?? '')){
 			case 'quit':
 				unset($this->portalEditing[$player->getUniqueId()->toString()]);
-				$player->sendMessage('§aYou are no longer editing mode');
+				$player->sendMessage('§aYou are no longer in editing mode');
 				break;
 
 			case 'list':
